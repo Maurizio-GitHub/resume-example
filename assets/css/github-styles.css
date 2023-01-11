@@ -1,0 +1,175 @@
+/* Fonts */
+
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+/* Main Area */
+
+br {
+    display: block;
+    line-height: 1.6em;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    outline: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+strong,
+b {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+/* Page Structure */
+
+#search-area {
+    background: white;
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.4);
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 15px 25px;
+}
+
+#gh-api-data {
+    display: block;
+    padding: 25px 0;
+}
+
+#loader {
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+    width: 200px;
+}
+
+/* Page Content Styles */
+
+.small-name {
+    color: #a9a9a9;
+    font-size: 0.75em;
+    font-style: italic;
+}
+
+.avi {
+    float: left;
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+
+.avi img {
+    border: 1px solid #cccccc;
+    padding: 3px;
+}
+
+.repo-list {
+    clear: both;
+    display: block;
+    width: 100%;
+}
+
+.repo-list ul {
+    font-size: 1.2em;
+}
+
+.repo-list ul li {
+    display: block;
+}
+
+.repo-list ul li a {
+    background-color: #3673af;
+    background-image: linear-gradient(top, #5597d8, #3673af);
+    border: 1px solid #356492;
+    border-radius: 3px;
+    color: white;
+    display: block;
+    float: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 6px 9px;
+    text-decoration: none;
+}
+
+.repo-list ul li a:hover {
+    background-color: #396895;
+    background-image: linear-gradient(top, #4b87c2, #396895);
+}
+
+.repo-list ul li a:active {
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.repo-list ul li a span {
+    font-family: "Courier New", Courier, "Lucida Typewriter", monospace;
+    font-size: 0.9em;
+}
+
+/* Input Field */
+
+#gh-username {
+    color: #666666;
+    display: block;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    max-width: 550px;
+    padding: 5px 8px;
+}
+
+#gh-submit {
+    background-color: #eaeaea;
+    background-image: linear-gradient(#fafafa, #eaeaea);
+    border: 1px solid #dddddd;
+    border-bottom-color: #c5c5c5;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    color: #444444;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+#gh-submit:hover {
+    background-color: #dadada;
+    background-image: linear-gradient(#eaeaea, #dadada);
+    border-color: #cccccc #cccccc #b5b5b5;
+}
+
+#gh-submit:active {
+    background-color: #dadada;
+    background-image: none;
+    border-color: #b5b5b5;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
+}
