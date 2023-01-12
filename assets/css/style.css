@@ -200,7 +200,7 @@ footer {
 
 .cv-pdf>i:hover {
     color: #e84610;
-    transition: all 0.35 ease-in-out;
+    transition: all 0.5 ease-in-out;
 }
 
 .social-links {
@@ -216,7 +216,7 @@ footer {
     line-height: 7px;
     padding: 12px 0;
     text-align: center;
-    transition: all 0.35 ease-in-out;
+    transition: all 0.5 ease-in-out;
     width: 32px;
 }
 
